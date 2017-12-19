@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="fr.epita.android.hellorelativelayout.MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:paddingLeft="50dp"
+        android:paddingRight="50dp">
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="@string/text_view"
+            android:layout_gravity="center_vertical"
+            android:background="#FF0000"
+            android:layout_alignParentLeft="true"/>
+
+        <TextView
+            android:id="@+id/tv2"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:text="@string/text_view"
+            android:layout_gravity="center_vertical"
+            android:background="#FF0000"
+            android:layout_alignParentRight="true"/>
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_top"
+            android:layout_toRightOf="@id/tv1"
+            android:layout_toLeftOf="@id/tv2"/>
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="@string/button_bottom"
+            android:layout_toRightOf="@id/tv1"
+            android:layout_toLeftOf="@id/tv2"
+            android:layout_gravity="bottom"
+            android:layout_alignBottom="@id/tv1"/>
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

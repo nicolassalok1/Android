@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ListViewApp</string>
+    <string name="list_content">The list is empty</string>
+</resources>

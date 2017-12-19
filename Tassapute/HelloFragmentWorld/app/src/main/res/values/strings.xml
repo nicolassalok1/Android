@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">HelloFragmentWorld</string>
+    <string name="hello">Hello main world!</string>
+    <string name="button">Say goodbye!</string>
+    <string name="helloFragment">Hello fragment world!</string>
+    <string name="helloSecond">Goodbye fragment world!</string>
+    <string name="helloThird">I an on other fragment!</string>
+
+</resources>

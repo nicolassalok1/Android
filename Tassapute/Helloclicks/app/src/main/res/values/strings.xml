@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">My Hello Clicks</string>
+    <string name="text">Hello World, how are you doing ?</string>
+    <string name="button1">Click me !</string>
+    <string name="button2">Reset</string>
+    <string name="button3">Normal</string>
+    <string name="button4">Big</string>
+    <string name="count_step">Counter step</string>
+    <string name="reset">Reset</string>
+    <string name="reverse">Reverse</string>
+</resources>

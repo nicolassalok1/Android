@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Hello relative layout</string>
+    <string name="button_top">BUTTON TOP</string>
+    <string name="button_bottom">BUTTON BOTTOM</string>
+    <string name="text_view">"Textview"</string>
+    <string name="text_view_top">Empty top</string>
+    <string name="text_view_bottom">"Empty bottom</string>
+</resources>
